@@ -1,0 +1,70 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+body{
+  background-color: #9BD770;
+}
+
+
+.title {
+   background-color: #375F1B;
+   min-width: 10px;
+   box-shadow: 1px 2px 2px solid black;
+
+ }
+ .my-card{
+   color: #EBF7E3;
+   border: 5px solid #66B032;
+   margin-top: 10px;
+ }
+ .category {
+ }
+ .image {
+   padding: 15px;
+   padding-left: 15px;
+   margin-left: 15px;
+
+ }
+h1.title {
+  text-shadow: 34px;
+  color: #375F1B;
+  background-color: #9BD770;
+   box-shadow: 15px solid black;
+}
+.box{
+  background-color: #EBF7E3;
+  padding: 15px;
+  box-shadow: 2px 2px 2px solid black;
+  border-radius: 2%;
+  margin-bottom: 15px;
+}
+.img-fluid {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px solid black;
+  border-radius: 2%;
+}
+
+.btn{
+  margin-bottom: 15px;
+}
+.warna{
+  color: red;
+}
+#img-200{
+  width: 60px;
+}
+a{
+  color: white;
+}
